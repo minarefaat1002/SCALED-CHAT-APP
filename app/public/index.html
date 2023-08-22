@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://momentjs.com/downloads/moment.js
+    " />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="name">
+            <i class="fa-solid fa-user"></i> <input type="text" id="input-name" value="User">
+        </div>
+        <div id="messages-container">
+            <!-- <div class="left-message">
+                <div class="left-image">
+                    <img src="img.png" alt="">
+                </div>
+                <div class="message-data">
+                    <div class="message-header">
+                        <span>Mina</span>
+                    </div>
+                    <div class="left-message-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus maiores illo rerum tempore, autem iste delectus officia veniam ratione at laudantium ipsum fuga soluta? Quae id officiis ab doloremque fugiat?
+                    </div>
+                    <div>12 Jan, 12:45</div>
+                </div>
+            </div>
+            <div class="right-message">
+                <div class="message-data">
+                    <div class="message-header">
+                        <span>Mina</span>
+                    </div>
+                    <div class="right-message-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus maiores illo rerum tempore, autem iste delectus officia veniam ratione at laudantium ipsum fuga soluta? Quae id officiis ab doloremque fugiat?
+                    </div>
+                    <div>12 Jan, 12:45</div>
+                </div>
+                <div class="right-image">
+                    <img src="img.png" alt="">
+                </div>
+            </div> -->
+        </div>
+        <form action="" id="message-form">
+            <input type="text" id="message-input" autocomplete="off">
+            <button type="submit">
+                Send <i class="fa-regular fa-paper-plane"></i>
+            </button>
+        </form>
+        <h3 class="clients-total">Total clients: <span id="clients-total"></span></h3>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
