@@ -24,4 +24,4 @@ services:
     environment:
       - APPID=4444
   rds:
-    image: redis
+    image: redis 
